@@ -1,0 +1,119 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 800px;
+            min-height: 600px;
+            background-image: url('public/murtazacard.png'); /* Change kiya hai image ka naam */
+            background-size: cover;
+            background-position: center;
+            padding: 60px 40px;
+            text-align: center;
+            color: #4a3f35;
+            position: relative;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(77, 23, 23, 0.1);
+          }
+
+
+
+        /* .card {
+            width: 100%;
+            max-width: 800px;
+            min-height: 600px;
+            background-image: url('cardd template.png');
+            background-size: cover;
+            background-position: center;
+            padding: 60px 40px;
+            text-align: center;
+            color: #4a3f35;
+            position: relative;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        } */
+
+        .content {
+            /* background: rgba(255, 255, 255, 0.85); */
+            padding: 40px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .bismillah {
+            font-family: 'Great Vibes', cursive;
+            color: #8b7355;
+            font-size: 25px;
+            margin-bottom: 30px;
+            padding-top: 130px;
+        }
+
+        .announcement {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .names {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 28px;
+            font-weight: 600;
+            /* color: #826c4e; */
+            color: #c5a572;
+            margin: 25px 0;
+            line-height: 1.8;
+        }
+
+        .date {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            margin: 30px 0;
+            color: lavenderblush;
+        }
+
+        .dua {
+            font-family: 'Great Vibes', cursive;
+            font-size: 24px;
+            color: #8b7355;
+            margin: 30px 0;
+            line-height: 1.6;
+        }
+
+        .footer {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px;
+            margin-top: 30px;
+            color: #555;
+        }
+
+        
+        .address {
+            margin-top: 10px;
+            color: lavenderblush;
+
+        } 
+        .contact {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            margin-top: 20px;
+            /* color: #5a4a3f;
+             */
+             color: lavenderblush;
+        }
+    
